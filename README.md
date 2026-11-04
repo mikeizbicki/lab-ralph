@@ -241,7 +241,7 @@ But since everything about llms is nondeterministic, YMMV.
 > 2. The `test.sh` script uses `pytest -x`.
 >   The `-x` flag means that pytest will stop immediately on the first failing test and not run the full test suite.
 >   (This is commonly used for test suites that take a long time to run.
->   Many production test suites take hours to run and cost $$$, and so we put the basic quick tests first so that if they fail we don't have to waist our time and money.)
+>   Many production test suites take hours to run and cost $$$, and so we put the basic quick tests first so that if they fail we don't have to waste our time and money.)
 >
 > Notice that I did not ask the model to only run one test... models are evil and will not obey your instructions... I made it impossible for the model to misbehave and run more than one test at a time.
 > That is the essence of good prompt engineering... making it impossible for the model to misbehave.
